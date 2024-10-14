@@ -7,8 +7,8 @@ import mlflow
 import pickle
 
 
-access_key = "AKIAQ3EGQMBVWV2S4Y3I"
-secret_key = "HH2J&#43;FTVOKMvNFHAsXz3uMM8pkZtPmmQ70dE/0&#43;9"
+access_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+secret_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # Initialize the S3 resource with the access key and secret key
 s3_resource = boto3.resource('s3', region_name='us-east-1', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
